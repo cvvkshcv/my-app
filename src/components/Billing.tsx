@@ -44,7 +44,7 @@ const Billing = ({ handleContinue }: any) => {
       } = userInfo;
       reset({ number, city, zipcode, street });
     }
-  }, [reset, userInfo, loading]);
+  }, [loading]);
 
   // Error handler
   if (error) {
